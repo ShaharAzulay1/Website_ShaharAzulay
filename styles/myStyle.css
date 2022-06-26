@@ -1,0 +1,605 @@
+﻿body 
+{
+    direction:rtl;
+    width:1200px;
+}
+
+/*תפריט ניוט*/
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+.nav-bar-item {
+    color: lightgray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 20px;
+    width: 10px;
+    text-decoration: none;
+}
+
+#nav-bar {
+    font-family: Assistant;
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+#name a {
+    color: lightgray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 35px;
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    right: 90%;
+    text-decoration: none;
+}
+
+/*לינק שלא נכנסו אליו*/
+a.nav-bar-item:link, a.nav-bar-item:visited {
+    color: lightgrey;
+    padding: 4px;
+    text-decoration: none;
+}
+
+/*מעבר עכבר על לינק*/
+a.nav-bar-item:hover, a.nav-bar-item:active {
+    color: gray;
+    padding: 4px;
+    text-decoration: none;
+}
+
+/*פוטר*/
+
+.footer {
+    position: absolute;
+    top:auto;
+    bottom: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer a {
+    font-family: Assistant;
+    font-size: 20px;
+    color: lightgray;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    right: 650px;
+}
+
+
+a#email:hover {
+    color: gray;
+}
+
+#icons {
+    display: inline-block;
+}
+
+    #icons img {
+        height: 70px;
+        width: 70px;
+        padding: 15px;
+        opacity: 0.4;
+        position: relative;
+        top: 2px;
+        right: 0px;
+    }
+
+a.icon-item:hover, a.icon-item:active {
+    opacity: 1;
+}
+
+
+/*עמוד בית*/
+#name2{
+    float: none;
+    position: relative;
+    top: 400px;
+    right: 600px;
+    color: lightgray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 35px;
+    height: 30px;
+    padding-bottom:650px;
+}
+
+#homedeco {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width:1200px;
+        height:auto;
+}
+
+/*קצת עלי*/
+#breadcrumbs-nav ol {
+    list-style: none;
+    
+}
+nav ol li {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 20px;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+}
+
+    nav ol li a {
+        text-decoration: none;
+        color: gray;
+    }
+    nav ol li:after {
+        content: ">";
+    }
+    nav ol li:last-child:after {
+        content: "";
+    }
+
+    nav ol li a:hover{
+        color:black;
+    }
+
+    #about-me > h1 {
+        position: relative;
+        top: 120px;
+        right: 700px;
+        color: gray;
+        padding: 2px;
+        font-family: Assistant;
+        font-size: 45px;
+    }
+
+#about-me > p {
+    position: relative;
+    text-align: center;
+    top: 90px;
+    right: 330px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 20px;
+    width: 900px;
+}
+
+#about-me > h2 {
+    position: relative;
+    top: 90px;
+    right: 570px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 35px;
+}
+
+#aboutpic img{
+    position: relative;
+    top: 70px;
+    right: 390px;
+    opacity: 0.8;
+    height: 550px;
+    width: auto;
+}
+
+
+#odot > h2 {
+    position: relative;
+    top: 120px;
+    right: 600px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 45px;
+}
+
+#odot > #aboutproject {
+    position: relative;
+    top: 100px;
+    right: 325px;
+    width: 900px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+}
+
+#odot > h3 {
+    position: relative;
+    top: 90px;
+    right: 625px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 25px;
+}
+
+
+#odot > h4 {
+    position: relative;
+    top: 65px;
+    right: 550px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+}
+
+#odot ol{
+    list-style: none;
+}
+    #odot ol li a:hover, #odot ol li a:active {
+        color: gray;
+    }
+
+    #what {
+        position: relative;
+        top: 65px;
+        right: 370px;
+        color: gray;
+        padding: 2px;
+        font-family: Assistant;
+        font-size: 18px;
+    }
+
+#developed {
+    position: relative;
+    top: 40px;
+    right: 670px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+}
+
+#odot ol li a {
+    position: relative;
+    top: 40px;
+    right: 685px;
+    color: gray;
+    opacity: 0.8;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a.dev-item:hover, a.dev-item:active {
+    opacity: 1;
+}
+
+#school{
+    padding-bottom: 20px;
+}
+
+#schoolLogo {
+    position: relative;
+    top: 50px;
+    right: 630px;
+    height: 200px;
+    width: auto;
+}
+
+#schoolLink{
+    position:relative;
+    top:30px;
+    right:430px;
+    font-family: Assistant;
+    font-size: 18px;
+    color: gray;
+}
+
+/*עמוד צור קשר*/
+#bgPic {
+    position: absolute;
+    top: 50px;
+    right: 210px;
+    opacity: 0.15;
+    width: 1000px;
+    height:700px;
+}
+
+#contact-form{
+    padding-bottom:330px;
+}
+
+.form-item {
+    position: relative;
+    top: 150px;
+    right: 500px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 20px;
+}
+
+.form-line {
+    border-bottom: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    position: relative;
+    top: 150px;
+    right: 500px;
+    color: gray;
+    width: 500px;
+    font-size: 18px;
+}
+
+#contact-form > h1 {
+    position: relative;
+    top: 120px;
+    right: 700px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 45px;
+}
+
+#fullname, #mail, #note {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    width: 400px;
+}
+
+#submit {
+    position: relative;
+    top: 250px;
+    right: 215px;
+    padding: 10px;
+    color: gray;
+    font-family: Assistant;
+    font-size: 20px;
+    width: 100px;
+    transition: width 0.3s;
+}
+
+    #submit:hover {
+        width: 150px;
+    }
+
+
+/*פרוייקטים*/
+
+#projectsTitle {
+    position: relative;
+    top: 120px;
+    right: 700px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 45px;
+}
+.container1 {
+    position: relative;
+    right: 150px;
+    display: flex;
+    width: 100%;
+    padding: 10% 8%;
+    box-sizing: border-box;
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+    height: 600px;
+}
+
+    .box > img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        transition: .5s;
+    }
+
+    .box > span {
+        font-size: 18px;
+        font-family: Assistant;
+        color: gray;
+        display: block;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .box:hover {
+        flex: 1 1 50%;
+    }
+
+        .box:hover > img {
+            width: 100%;
+            height: 80%;
+        }
+
+/*גלרית קומיקס*/
+
+#explanation h1 {
+    position: relative;
+    top: 120px;
+    right: 600px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 45px;
+}
+
+#explanation p {
+    position: relative;
+    top: 90px;
+    right: 490px;
+    width: 900px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 18px;
+}
+
+#gallary {
+    width: 1000px;
+    position: relative;
+    height: auto;
+    top: 80px;
+    right: 250px;
+    padding-bottom:60px;
+}
+    * {
+  box-sizing: border-box;
+}
+
+/*/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 1000px;
+    top: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 400px;
+    width: auto;
+    padding: 16px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    right: 955px;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+/* Number text (1/3 etc) */
+.numberText {
+    color: grey;
+    font-family: Assistant;
+    font-size: 16px;
+    padding: 40px 2px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    width:1000px;
+    text-align: center;
+    font-family: Assistant;
+    background-color: grey;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: right;
+    width: 14.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+
+
+
+
+/*מפת אתר*/
+
+#sitemap h1 {
+    position: relative;
+    top: 120px;
+    right: 680px;
+    color: gray;
+    padding: 2px;
+    font-family: Assistant;
+    font-size: 45px;
+}
+#sitemap ol{
+    list-style:none;
+    position: relative;
+    float: none;
+    left: 0;
+    top:20px;
+}
+#sitemap ol li a {
+    position: relative;
+    top: 80px;
+    right: 685px;
+    color: gray;
+    opacity: 0.8;
+    padding: 5px;
+    font-family: Assistant;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#mapPic img{
+    position: relative;
+    right:525px;
+    top: 90px;
+    width:500px;
+    height:auto;
+    opacity:0.6;
+    padding-bottom: 50px;
+}

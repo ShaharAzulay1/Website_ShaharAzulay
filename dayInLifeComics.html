@@ -1,0 +1,143 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>Shahar's portfolio- Comics</title>
+    <meta name="description" content="A project in Websites Development course at Holon Insistute of Technology for first-yeat students studing Instructional Technologies" />
+    <meta name="keywords" content="portfolio, comics, shahar" />
+    <meta name="author" content="Shahar Azulay" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+    <link rel="icon" href="images/cherry-blossom.png" />
+</head>
+<body onload="showSlides(1)">
+    <header>
+        <nav id="nav-bar" aria-label="main-nav">
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-bar-item">עמוד הבית /</a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-bar-item">קצת עלי /</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="nav-bar-item">פרויקטים /</a>
+                </li>
+                <li>
+                    <a href="dayInLifeComics.html" class="nav-bar-item">קומיקס /</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="nav-bar-item">צור קשר /</a>
+                </li>
+                <li>
+                    <a href="sitemap.html" class="nav-bar-item">מפת אתר</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="name">
+            <a href="index.html">Shahar Azulay</a>
+        </div>
+        <div>
+            <nav aria-label="breadcrumbs-nav">
+                <ol>
+                    <li>
+                        <a href="index.html">עמוד הבית</a>
+                    </li>
+                    <li>
+                        <a href="dayInLifeComics.html">קומיקס</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div id="explanation">
+            <h1>קומיקס- יום בחיי</h1>
+            <p>
+                קומיקס הומוריסטי שנועד להציג ימים טיפוסיים בחיי. צוייר בעט שחור ועיפרון.
+            </p>
+        </div>
+        <div id="gallary">
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numberText">1 / 7</div>
+                    <img src="images/Sunday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">2 / 7</div>
+                    <img src="images/Monday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">3 / 7</div>
+                    <img src="images/Tuesday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">4 / 7</div>
+                    <img src="images/Wednsday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">5 / 7</div>
+                    <img src="images/Thursday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">6 / 7</div>
+                    <img src="images/Friday.png" style="width:100%" />
+                </div>
+                <div class="mySlides">
+                    <div class="numberText">7 / 7</div>
+                    <img src="images/Saturday.png" style="width:100%" />
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="Images/Sunday.png" onclick="currentSlide(1)" style="width: 100%" alt="A day in my life- Sunday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Monday.png" onclick="currentSlide(2)" style="width: 100%" alt="A day in my life- Monday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Tuesday.png" onclick="currentSlide(3)" style="width: 100%" alt="A day in my life- Tuesday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Wednsday.png" onclick="currentSlide(4)" style="width: 100%" alt="A day in my life- Wednsday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Thursday.png" onclick="currentSlide(5)" style="width: 100%" alt="A day in my life- Thursday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Friday.png" onclick="currentSlide(6)" style="width: 100%" alt="A day in my life- Friday">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Saturday.png" onclick="currentSlide(7)" style="width: 100%" alt="A day in my life- Saturday">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"> 
+        <div>
+            <a href="Shaharazulay1@gmail.com" id="email">Shaharazulay1@gmail.com</a>
+        </div>
+        <div id="icons">
+            <a href="https://www.linkedin.com/in/shahar-azulay-b080b41b4/" target="_blank" class="icon-item">
+                <img src="Images/linkedin.png" alt="linkdIn icon" />
+            </a>
+            <a href="https://wa.me/<0546855385>" target="_blank" class="icon-item">
+                <img src="Images/whatsapp.png" alt="whatsapp icon" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="icon-item">
+                <img src="Images/instagram.png" alt="instegram icon" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
